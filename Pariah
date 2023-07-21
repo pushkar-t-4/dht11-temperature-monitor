@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ESP32 GitHub Website</title>
+</head>
+<body>
+    <h1>Welcome to My ESP32 GitHub Website!</h1>
+    <div id="content">
+        <p id="displayText">No data available yet.</p>
+    </div>
+
+    <script>
+        // Function to fetch the text data from GitHub and display it on the website
+        async function fetchTextData() {
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/pushkar-t-4/pushkar-t-4/dht11-temperature-monitor/main/index.ht<!DOCTYPE html>
+<html>
+<head>
+    <title>ESP32 GitHub Website</title>
+</head>
+<body>
+    <h1>Welcome to My ESP32 GitHub Website!</h1>
+    <div id="content">
+        <p id="displayText">No data available yet.</p>
+    </div>
+
+    <script>
+        // Function to fetch the text data from GitHub and display it on the website
+        async function fetchTextData() {
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/pushkar-t-4/pushkar-t-4/dht11-temperature-monitor/main/index.html');
+                const data = await response.text();
+                const displayElement = document.getElementById('displayText');
+                displayElement.innerText = data;
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        }
+
+        // Fetch text data when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchTextData();
+        });
+    </script>
+</body>
+</html>
+ml');
+                const data = await response.text();
+                const displayElement = document.getElementById('displayText');
+                displayElement.innerText = data;
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        }
+
+        // Fetch text data when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchTextData();
+        });
+    </script>
+</body>
+</html>
